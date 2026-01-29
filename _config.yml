@@ -16,7 +16,7 @@ plugins:
 
 # Navigation menu (links to your pages)
 header_pages:
-  - README.md           # Homepage (can rename to index.md later)
+  - index.md           # Homepage (can rename to index.md later)
   - automation.md       # Automation & Controls
   # Add more as you create them:
   # - safety.md
