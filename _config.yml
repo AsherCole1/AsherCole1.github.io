@@ -1,29 +1,38 @@
-# -----------------------------
-# Minimal Mistakes Jekyll config
-# -----------------------------
-title: "Asher Cole Engineering Portfolio"
-description: "Portfolio showcasing projects in Automation, Safety, Mechanical, Process Optimization, and Troubleshooting."
-url: ""        # leave blank for GitHub Pages
-baseurl: ""    # leave blank for GitHub Pages
+# Site settings
+title: "Asher Cole | Engineering Portfolio"
+description: "Portfolio of engineering projects and professional experience"
+baseurl: "" # leave blank for GitHub Pages root
+url: "https://AsherCole1.github.io" # replace with your GitHub Pages URL
+repository: AsherCole1.github.io # your repo name
 
 # Theme
 theme: minimal-mistakes-jekyll
 
-# Plugins
+# Fonts
+fonts:
+  header: "Roboto Slab"
+  body: "Roboto"
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Navigation
+header_pages:
+  - index.md
+  - _pages/safety-compliance.md
+  - _pages/automation-controls.md
+  - _pages/mechanical-facilities.md
+  - _pages/process-optimization.md
+  - _pages/troubleshooting.md
+
+# Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Navigation menu (links to your pages)
-header_pages:
-  - index.md           # Homepage (can rename to index.md later)
-  - automation.md       # Automation & Controls
-  # Add more as you create them:
-  # - safety.md
-  # - mechanical.md
-  # - process.md
-  # - troubleshooting.md
-
-# Optional: enable sidebars on single pages
-sidebar:
-  nav: "sidebar-nav"
+# Optional: colors or custom CSS
+# Uncomment if you want to override fonts via CSS
+#sass:
+#  style: compressed
