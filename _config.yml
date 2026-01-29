@@ -3,7 +3,7 @@ title: "Asher Cole | Engineering Portfolio"
 description: "Portfolio of engineering projects and professional experience"
 baseurl: "" # leave blank for GitHub Pages root
 url: "https://AsherCole1.github.io" # replace with your GitHub Pages URL
-repository: AsherCole1.github.io # your repo name
+repository: AsherCole1/AsherCole1.github.io # your repo name
 
 # Theme
 theme: minimal-mistakes-jekyll
