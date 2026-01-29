@@ -1,6 +1,8 @@
 ---
-title: Automation & Controls
+title: "Automation & Controls"
+layout: single
 permalink: /automation/
+nav_order: 2
 ---
 
 ## Automation & Controls
