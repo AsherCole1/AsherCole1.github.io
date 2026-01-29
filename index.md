@@ -1,6 +1,6 @@
 ---
-title: "Asher Cole Engineering Portfolio"
 layout: home
+title: "Asher Cole Engineering Portfolio"
 permalink: /
 # Optional: Add a sidebar if you want
 sidebar:
