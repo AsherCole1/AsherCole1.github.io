@@ -1,0 +1,29 @@
+# -----------------------------
+# Minimal Mistakes Jekyll config
+# -----------------------------
+title: "Asher Cole Engineering Portfolio"
+description: "Portfolio showcasing projects in Automation, Safety, Mechanical, Process Optimization, and Troubleshooting."
+url: ""        # leave blank for GitHub Pages
+baseurl: ""    # leave blank for GitHub Pages
+
+# Theme
+theme: minimal-mistakes-jekyll
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation menu (links to your pages)
+header_pages:
+  - README.md           # Homepage (can rename to index.md later)
+  - automation.md       # Automation & Controls
+  # Add more as you create them:
+  # - safety.md
+  # - mechanical.md
+  # - process.md
+  # - troubleshooting.md
+
+# Optional: enable sidebars on single pages
+sidebar:
+  nav: "sidebar-nav"
