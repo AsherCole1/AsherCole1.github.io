@@ -1,12 +1,18 @@
 # Site settings
 title: "Asher Cole | Engineering Portfolio"
 description: "Portfolio of engineering projects and professional experience"
-baseurl: "" # leave blank for GitHub Pages root
-url: "https://AsherCole1.github.io" # replace with your GitHub Pages URL
-repository: AsherCole1/AsherCole1.github.io # your repo name
+baseurl: ""
+url: "https://AsherCole1.github.io"
+repository: AsherCole1/AsherCole1.github.io
 
-# Theme
-theme: minimal-mistakes-jekyll
+# Minimal Mistakes via GitHub Pages
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Plugins (required)
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Fonts
 fonts:
@@ -17,22 +23,3 @@ fonts:
 markdown: kramdown
 kramdown:
   input: GFM
-
-# Navigation
-header_pages:
-  - index.md
-  - _pages/safety-compliance.md
-  - _pages/automation-controls.md
-  - _pages/mechanical-facilities.md
-  - _pages/process-optimization.md
-  - _pages/troubleshooting.md
-
-# Build settings
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Optional: colors or custom CSS
-# Uncomment if you want to override fonts via CSS
-#sass:
-#  style: compressed
