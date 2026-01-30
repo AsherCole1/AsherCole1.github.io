@@ -1,30 +1,35 @@
 ---
 layout: home
-title: "Asher Cole Engineering Portfolio"
+title: "Asher Cole | Engineering Portfolio"
 permalink: /
-# Optional: Add a sidebar if you want
-sidebar:
-  nav: "sidebar-nav"
 ---
-
-# Welcome
+## Welcome
 
 Hi, I’m **Asher Cole**, a Plant Engineer specializing in automation, process optimization, and safety/compliance.  
-This portfolio showcases my engineering projects across multiple areas: Automation & Controls, Safety & Compliance, Mechanical/Facilities, Process Optimization, and Troubleshooting.
+This portfolio showcases my engineering projects across multiple areas of manufacturing and industrial engineering.
 
 ---
 
 ## Portfolio Categories
 
-- [Automation & Controls](/automation/) – Projects involving PLC programming, HMI interfaces, and industrial automation systems.
-- [Safety & Compliance]() – Projects focused on process safety, lockout/tagout, audits, and regulatory compliance. *(Page coming soon)*
-- [Mechanical & Facilities]() – Projects covering equipment maintenance, facility upgrades, and mechanical troubleshooting. *(Page coming soon)*
-- [Process Optimization]() – Projects that improved efficiency, reduced waste, or enhanced throughput. *(Page coming soon)*
-- [Troubleshooting]() – Problem-solving and root cause analysis projects. *(Page coming soon)*
+- [Automation & Controls](/automation.html)  
+  PLC programming, HMIs, and industrial automation systems.
+
+- **Safety & Compliance**  
+  Process safety, LOTO, audits, and regulatory compliance. *(Coming soon)*
+
+- **Mechanical & Facilities**  
+  Equipment maintenance, facility upgrades, and mechanical troubleshooting. *(Coming soon)*
+
+- **Process Optimization**  
+  Efficiency improvements, waste reduction, and throughput enhancements. *(Coming soon)*
+
+- **Troubleshooting**  
+  Root cause analysis and complex problem-solving. *(Coming soon)*
 
 ---
 
 ## Quick Links
 
-- [GitHub Repositories](https://github.com/yourusername) – Technical proof and project code.
-- [Download PDF Portfolio](link-to-pdf) – Quick-scan executive summary.
+- [GitHub Repositories](https://github.com/AsherCole1)
+- PDF Portfolio *(coming soon)*
